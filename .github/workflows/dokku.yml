@@ -36,3 +36,6 @@ jobs:
           dokku-app: react-app-dokku
           # Username for dokku host.
           dokku-user: dokku
+  only:
+    refs:
+      - master
