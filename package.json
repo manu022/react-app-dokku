@@ -15,7 +15,6 @@
     "npm": ">=6.0.0"
   },
   "scripts": {
-    "heroku-postbuild": "npm run build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
