@@ -28,7 +28,7 @@ jobs:
         uses: fasetto/dokku-deploy@v1.5
         with:
           # SSH private key to dokku instance.
-          dokku-deploy-key: Zyq9OD5MZQnpSg9Ei136DSFh+geU5MMhtWQ6kJGATvQ
+          dokku-deploy-key: ${{ secrets.SSH_PRIVATE_KEY }}
           # Dokku host.
           dokku-host: 167.99.14.196
           # Application name on dokku.
