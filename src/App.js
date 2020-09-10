@@ -3,7 +3,7 @@ import logo from './logo.svg';
 import './App.css';
 // HOLA MUNDO AAAAAA
 function App() {
-  return <div className='App'>Chao Mundo</div>;
+  return <div className="App">Bye World</div>;
 }
 
 export default App;
